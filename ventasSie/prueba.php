@@ -1,6 +1,6 @@
 
 
 <?php
-$name = 'ros';
+$name = 'ros_guardia_averanga';
 
 ?>
