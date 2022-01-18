@@ -27,6 +27,7 @@ use App\Http\Livewire\CompaniesController;
 use App\Http\Livewire\CorteCajaController;
 use App\Http\Livewire\PlataformasController;
 use App\Http\Livewire\SucursalController;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
@@ -58,6 +59,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('users', UsersController::class)->name('usuarios');
     Route::get('cashout', CashoutController::class)->name('cashout');
     Route::get('reports', ReportsController::class)->name('reportes');
+    Route::get('fffff', ReportsController::class)->name('ffff');
 
     Route::get('comisiones', ComisionesController ::class)->name('comision');
     Route::get('motivos', MotivoController ::class)->name('motivo');
